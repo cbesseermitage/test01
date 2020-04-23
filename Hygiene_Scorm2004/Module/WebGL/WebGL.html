@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en-us"  style="height:100%">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Virtual Training Suite Module</title>
+    <script src="scorm.js"></script>
+		<script src="Build/UnityLoader.js"></script>
+	<script type='text/javascript'>
+        hasLoad = false;
+
+		// Resize the logo
+        function resize_canvas() {
+
+            loading = document.getElementById("iloading");
+            logo = document.getElementById("lloading");
+            bg = document.getElementById("bgloading");
+            logo.style.top = 50 + '%';
+            logo.style.left = 50 + '%';
+            logo.style.position = 'absolute';
+            logo.style.marginLeft = -237 + 'px';
+
+
+            bg.style.top = 50 + '%';
+            bg.style.left = 50 + '%';
+            bg.style.position = 'absolute';
+            bg.style.marginLeft = -237 + 'px';
+            if (window.innerHeight * 1.77 > window.innerWidth) {
+
+                var cw = (window.innerWidth * 100.0) / 100.0;
+                var ch = (cw * (9.0 / 16.0));
+                loading.width = cw;
+                loading.height = ch;
+
+            }
+            else {
+                var ch = (window.innerHeight * 100.0) / 100.0;
+                var cw = (ch * (16.0 / 9.0));
+                loading.width = cw;
+                loading.height = ch;
+            }
+            ratio = loading.width / 1920;
+            logo.style.marginTop = -logo.height * ratio + 'px';
+
+            loading.style.top = ((window.innerHeight / 2) - loading.height * 0.5) + 'px';
+            loading.style.left = ((window.innerWidth / 2) - loading.width * 0.5) + 'px';
+            loading.style.position = 'absolute';
+            //ratio = 1;
+            bg.style.transformOrigin = '50% 0%';
+            logo.style.transformOrigin = '50% 0%';
+
+            logo.style.transform = "scale(" + ratio + ")";
+            bg.style.transform = "scale(" + ratio + ")";
+            var bodyRect = document.body.getBoundingClientRect(),
+			elemRect = logo.getBoundingClientRect();
+
+            offset = elemRect.bottom - bodyRect.top + logo.style.height * ratio;
+
+            bg.style.top = (offset + 20) + 'px';
+
+        }
+
+        function startAudioOnClick(){
+			window.AudioContext = window.AudioContext || window.webkitAudioContext;
+			
+			var bind = Function.bind;
+			var unbind = bind.bind(bind);
+
+			function instantiate(constructor, args) {
+				return new (unbind(constructor, null).apply(null, args));
+			}
+
+			window.AudioContext = function (AudioContext) {
+				return function () {
+					var audioContext = instantiate(AudioContext, arguments);
+					window.myAudioContext = audioContext;
+					return audioContext;
+				}
+			}(AudioContext);
+
+			var webAudioEnabled = false;
+
+			function resumeAudio(){
+				if (!webAudioEnabled && window.myAudioContext){
+					window.myAudioContext.resume();
+					webAudioEnabled = true;
+				}
+			}
+
+			document.body.addEventListener('click', resumeAudio, true);
+			document.addEventListener('keydown', resumeAudio, true);
+		}
+
+        function StartPlayer() {
+            hasLoad = true;
+
+			document.getElementById("loading").style.display = "none";
+			
+			var canvas = document.getElementById('canvasgame');
+			canvas.style.display = "block";
+            canvas.style.margin = "auto";
+
+			var canvasGame = document.getElementById('#canvas');
+			
+			var maxWidth = 1280;
+			var maxHeight = 720;
+            var ratio = (maxWidth * 1.0) / maxHeight;
+            
+			setInterval(function() {
+				// Do a first calculation based on height.
+				var height = Math.min(maxHeight, window.innerHeight);
+				var width = Math.floor(height * ratio);
+
+				// If it doesn't fit, then redo the calculation based on width.
+				if (width > window.innerWidth) {
+					width = Math.min(maxWidth, window.innerWidth);
+					height = Math.floor(width / ratio);
+				}
+			
+				canvas.style.width = width.toString() + "px";
+				canvas.style.height = height.toString() + "px";
+                canvas.style.paddingTop = Math.round((window.innerHeight - height) / 2) + "px";
+				canvas.width = width;
+				canvas.height = height;
+				canvasGame.width = width;
+				canvasGame.height = height;
+			}, 300);
+        }
+
+        function loadProgress(gameInstance, progress) {
+            document.getElementById("fillbgloading").style.width = (progress * 100.0) + "%";
+        }
+    </script>
+</head>
+<body class="template" onload="resize_canvas();" onresize="resize_canvas()" style="overflow:hidden;margin:0px;height:100%;width:100%">
+    <div align="center" id="loading">
+        <img src="../Splash.png" id="iloading" alt="loading" title="loading" />
+        <img src="../Logo.png" id="lloading" alt="logo" title="logo" width="471px;" />
+        <div align="left" id="bgloading" style="background-color:#0008;width:471px;height:10px;margin-top:16px;">
+            <div id="fillbgloading" style="background-color:#f26825ee;height:100%;width:0%;"></div>
+        </div>
+    </div>
+
+        <div class="emscripten" id="canvasgame" oncontextmenu="event.preventDefault()" style="display:none; text-align:center;"></div>
+    <p class="footer"></p>
+    <script type='text/javascript'>
+    	startAudioOnClick();
+        var gameInstance = UnityLoader.instantiate("canvasgame", "Build/WebPlayer.json", { onProgress: loadProgress });
+    </script>
+
+</body>
+</html>

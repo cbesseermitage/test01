@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="com.vts.scorm.vsefsry586rd2vdo" version="1" xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3" xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3" xmlns:imsss="http://www.imsglobal.org/xsd/imsss" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lom="http://ltsc.ieee.org/xsd/LOM" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd http://ltsc.ieee.org/xsd/LOM lom.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>2004 4th Edition</schemaversion>
+    <lom:lom>
+      <lom:general>
+        <lom:title>
+          <string language="fr" xmlns="http://ltsc.ieee.org/xsd/LOM">Hygiène</string>
+        </lom:title>
+        <lom:description>
+          <string language="fr" xmlns="http://ltsc.ieee.org/xsd/LOM">
+          </string>
+        </lom:description>
+        <lom:keyword />
+        <lom:coverage />
+        <lom:structure>
+          <source>LOMv1.0</source>
+          <value>atomic</value>
+        </lom:structure>
+        <lom:aggregationLevel>
+          <source>LOMv1.0</source>
+          <value>1</value>
+        </lom:aggregationLevel>
+        <language>fr</language>
+      </lom:general>
+      <lifeCycle>
+        <version>
+          <string language="fr">1.0</string>
+        </version>
+        <status>
+          <source>LOMv1.0</source>
+          <value>final</value>
+        </status>
+        <contribute>
+          <role>
+            <source>LOMv1.0</source>
+            <value>Author</value>
+          </role>
+          <entity>begin:vcard
+fn:Unamed
+end:vcard</entity>
+        </contribute>
+      </lifeCycle>
+      <metaMetadata>
+        <metadataSchema>2004 4th Edition</metadataSchema>
+      </metaMetadata>
+      <technical>
+        <location>Module/index.html</location>
+        <requirement>
+          <orComposite>
+            <type>
+              <source>LOMv1.0</source>
+              <value>Browser</value>
+              <name>
+                <source>LOMv1.0</source>
+                <value>Firefox</value>
+                <minimumVersion>42+</minimumVersion>
+              </name>
+            </type>
+          </orComposite>
+        </requirement>
+        <requirement>
+          <orComposite>
+            <type>
+              <source>LOMv1.0</source>
+              <value>Browser</value>
+              <name>
+                <source>LOMv1.0</source>
+                <value>Google Chrome</value>
+                <minimumVersion>46+</minimumVersion>
+              </name>
+            </type>
+          </orComposite>
+        </requirement>
+        <requirement>
+          <orComposite>
+            <type>
+              <source>LOMv1.0</source>
+              <value>Browser</value>
+              <name>
+                <source>LOMv1.0</source>
+                <value>Microsoft Edge</value>
+                <minimumVersion>13+</minimumVersion>
+              </name>
+            </type>
+          </orComposite>
+        </requirement>
+        <requirement>
+          <orComposite>
+            <type>
+              <source>LOMv1.0</source>
+              <value>Operating System</value>
+              <name>
+                <source>LOMv1.0</source>
+                <value>Windows</value>
+                <minimumVersion>7+</minimumVersion>
+              </name>
+            </type>
+          </orComposite>
+        </requirement>
+        <requirement>
+          <orComposite>
+            <type>
+              <source>LOMv1.0</source>
+              <value>Operating System</value>
+              <name>
+                <source>LOMv1.0</source>
+                <value>MacOS</value>
+                <minimumVersion>10+</minimumVersion>
+              </name>
+            </type>
+          </orComposite>
+        </requirement>
+        <duration>
+          <duration>PT0H30M</duration>
+          <description>
+            <string language="en">Estimated length of time to play the experience.</string>
+            <string language="fr">Durée estimée pour jouer l'expérience.</string>
+          </description>
+        </duration>
+      </technical>
+      <educational>
+        <learningResourceType>
+          <source>LOMv1.0</source>
+          <value>simulation</value>
+        </learningResourceType>
+        <intendedEndUserRole>
+          <source>LOMv1.0</source>
+          <value>learner</value>
+        </intendedEndUserRole>
+        <interactivityLevel>
+          <source>LOMv1.0</source>
+          <value>high</value>
+        </interactivityLevel>
+        <interactivityType>
+          <source>LOMv1.0</source>
+          <value>mixed</value>
+        </interactivityType>
+        <typicalLearningTime>
+          <duration>PT30M</duration>
+        </typicalLearningTime>
+      </educational>
+      <rights>
+        <cost>
+          <source>LOMv1.0</source>
+          <value>no</value>
+        </cost>
+        <copyrightAndOtherRestrictions>
+          <source>LOMv1.0</source>
+          <value>yes</value>
+        </copyrightAndOtherRestrictions>
+        <description>
+          <string language="fr">Meletea</string>
+        </description>
+      </rights>
+      <relation />
+      <annotation />
+      <classification />
+    </lom:lom>
+  </metadata>
+  <organizations default="ORG1">
+    <organization identifier="ORG1">
+      <title>Hygiène</title>
+      <item identifier="com.vts.course.root" identifierref="Module_1">
+        <title>Lavage des mains</title>
+        <metadata>
+          <lom>
+            <lom:general>
+              <lom:title />
+              <lom:description>
+                <string language="fr" xmlns="http://ltsc.ieee.org/xsd/LOM">Prévention de la propagation d'agents infectieux.</string>
+              </lom:description>
+              <lom:keyword />
+              <lom:coverage />
+              <lom:structure />
+              <lom:aggregationLevel />
+            </lom:general>
+            <lifeCycle>
+              <version />
+              <status>
+                <source>LOMv1.0</source>
+                <value>final</value>
+              </status>
+            </lifeCycle>
+            <metaMetadata>
+              <metadataSchema>2004 4th Edition</metadataSchema>
+            </metaMetadata>
+            <technical />
+            <educational />
+            <rights>
+              <cost>
+                <source>LOMv1.0</source>
+                <value>no</value>
+              </cost>
+              <copyrightAndOtherRestrictions>
+                <source>LOMv1.0</source>
+                <value>no</value>
+              </copyrightAndOtherRestrictions>
+            </rights>
+            <relation />
+            <annotation />
+            <classification />
+          </lom>
+        </metadata>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="Module_1" type="webcontent" adlcp:scormType="sco" href="Module/index.html" />
+    <resource identifier="module.header.page.jpg" type="webcontent" adlcp:scormType="asset" href="Module/HEADER_PAGE.jpg" />
+    <resource identifier="module.logo.png" type="webcontent" adlcp:scormType="asset" href="Module/Logo.png" />
+    <resource identifier="module.splash.png" type="webcontent" adlcp:scormType="asset" href="Module/Splash.png" />
+    <resource identifier="module.favicon.ico" type="webcontent" adlcp:scormType="asset" href="Module/favicon.ico" />
+    <resource identifier="module.modernizr.js" type="webcontent" adlcp:scormType="asset" href="Module/modernizr.js" />
+    <resource identifier="module.pdf.js" type="webcontent" adlcp:scormType="asset" href="Module/pdf.js" />
+    <resource identifier="module.support.mobile.html" type="webcontent" adlcp:scormType="asset" href="Module/support_mobile.html" />
+    <resource identifier="module.support.webgl.html" type="webcontent" adlcp:scormType="asset" href="Module/support_webgl.html" />
+    <resource identifier="module.webgl..htaccess" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/.htaccess" />
+    <resource identifier="module.webgl.webgl.html" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/WebGL.html" />
+    <resource identifier="module.webgl.pdf.worker.js" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/pdf.worker.js" />
+    <resource identifier="module.webgl.scorm.js" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/scorm.js" />
+    <resource identifier="module.webgl.web.config" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/web.config" />
+    <resource identifier="module.webgl.build.unityloader.js" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/Build/UnityLoader.js" />
+    <resource identifier="module.webgl.build.webplayer.data.unityweb" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/Build/WebPlayer.data.unityweb" />
+    <resource identifier="module.webgl.build.webplayer.json" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/Build/WebPlayer.json" />
+    <resource identifier="module.webgl.build.webplayer.wasm.code.unityweb" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/Build/WebPlayer.wasm.code.unityweb" />
+    <resource identifier="module.webgl.build.webplayer.wasm.framework.unityweb" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/Build/WebPlayer.wasm.framework.unityweb" />
+    <resource identifier="module.webgl.streamingassets.packedprojectdata.data" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/PackedProjectData.data" />
+    <resource identifier="module.webgl.streamingassets.catalog.animations.m.sit.a.fear02.m.sit.a.fear02.web.vtsres" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Catalog/Animations/M_Sit_A_Fear02/M_Sit_A_Fear02_web.vtsres" />
+    <resource identifier="module.webgl.streamingassets.catalog.animations.m.sit.a.happy02.m.sit.a.happy02.web.vtsres" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Catalog/Animations/M_Sit_A_Happy02/M_Sit_A_Happy02_web.vtsres" />
+    <resource identifier="module.webgl.streamingassets.catalog.animations.m.sit.a.neutral.m.sit.a.neutral.web.vtsres" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Catalog/Animations/M_Sit_A_Neutral/M_Sit_A_Neutral_web.vtsres" />
+    <resource identifier="module.webgl.streamingassets.catalog.animations.m.stand.a.happy02.m.stand.a.happy02.web.vtsres" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Catalog/Animations/M_Stand_A_Happy02/M_Stand_A_Happy02_web.vtsres" />
+    <resource identifier="module.webgl.streamingassets.catalog.avatars.zaifeng.001.zaifeng.001.preview.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Catalog/Avatars/Zaifeng_001/Zaifeng_001_preview.png" />
+    <resource identifier="module.webgl.streamingassets.catalog.avatars.zaifeng.001.zaifeng.001.web.vtsres" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Catalog/Avatars/Zaifeng_001/Zaifeng_001_web.vtsres" />
+    <resource identifier="module.webgl.streamingassets.catalog.sceneries.tv.studio.01.tv.studio.01.web.vtsres" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Catalog/Sceneries/TV_Studio_01/TV_Studio_01_web.vtsres" />
+    <resource identifier="module.webgl.streamingassets.catalog.sceneries..default...default..web.vtsres" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Catalog/Sceneries/_Default_/_Default__web.vtsres" />
+    <resource identifier="module.webgl.streamingassets.configuration.config.data" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Configuration/Config.data" />
+    <resource identifier="module.webgl.streamingassets.configuration.version.data" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Configuration/Version.data" />
+    <resource identifier="module.webgl.streamingassets.medias.m.11.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_11.png" />
+    <resource identifier="module.webgl.streamingassets.medias.m.12.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_12.png" />
+    <resource identifier="module.webgl.streamingassets.medias.m.13.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_13.png" />
+    <resource identifier="module.webgl.streamingassets.medias.m.14.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_14.png" />
+    <resource identifier="module.webgl.streamingassets.medias.m.15.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_15.png" />
+    <resource identifier="module.webgl.streamingassets.medias.m.16.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_16.png" />
+    <resource identifier="module.webgl.streamingassets.medias.m.17.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_17.png" />
+    <resource identifier="module.webgl.streamingassets.medias.m.18.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_18.png" />
+    <resource identifier="module.webgl.streamingassets.medias.m.19.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_19.png" />
+    <resource identifier="module.webgl.streamingassets.medias.m.20.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_20.png" />
+    <resource identifier="module.webgl.streamingassets.medias.m.21.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_21.png" />
+    <resource identifier="module.webgl.streamingassets.medias.m.22.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_22.png" />
+    <resource identifier="module.webgl.streamingassets.medias.m.25.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_25.png" />
+    <resource identifier="module.webgl.streamingassets.medias.m.25.preview.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_25_preview.png" />
+    <resource identifier="module.webgl.streamingassets.medias.m.26.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_26.png" />
+    <resource identifier="module.webgl.streamingassets.medias.m.27.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_27.png" />
+    <resource identifier="module.webgl.streamingassets.medias.m.28.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_28.png" />
+    <resource identifier="module.webgl.streamingassets.medias.m.29.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_29.png" />
+    <resource identifier="module.webgl.streamingassets.medias.m.33.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_33.png" />
+    <resource identifier="module.webgl.streamingassets.medias.m.34.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_34.png" />
+    <resource identifier="module.webgl.streamingassets.medias.m.35.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_35.png" />
+    <resource identifier="module.webgl.streamingassets.medias.m.36.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_36.png" />
+    <resource identifier="module.webgl.streamingassets.medias.m.37.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_37.png" />
+    <resource identifier="module.webgl.streamingassets.medias.m.38.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_38.png" />
+    <resource identifier="module.webgl.streamingassets.medias.m.39.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_39.png" />
+    <resource identifier="module.webgl.streamingassets.medias.m.41.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_41.png" />
+    <resource identifier="module.webgl.streamingassets.medias.m.42.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_42.png" />
+    <resource identifier="module.webgl.streamingassets.medias.m.43.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_43.png" />
+    <resource identifier="module.webgl.streamingassets.medias.m.44.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_44.png" />
+    <resource identifier="module.webgl.streamingassets.medias.m.45.mp4" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_45.mp4" />
+    <resource identifier="module.webgl.streamingassets.medias.m.46.mp4" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_46.mp4" />
+    <resource identifier="module.webgl.streamingassets.medias.m.47.mp4" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_47.mp4" />
+    <resource identifier="module.webgl.streamingassets.medias.m.50.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_50.png" />
+    <resource identifier="module.webgl.streamingassets.medias.m.51.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_51.png" />
+    <resource identifier="module.webgl.streamingassets.medias.m.52.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_52.png" />
+    <resource identifier="module.webgl.streamingassets.medias.m.53.png" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/Medias/m_53.png" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.04f2b1622ba6d700f7357c8304eb1901.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/04f2b1622ba6d700f7357c8304eb1901.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.04f2b1622ba6d700f7357c8304eb1901.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/04f2b1622ba6d700f7357c8304eb1901.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.0ac671c981112ce7f6ceff619109ba97.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/0ac671c981112ce7f6ceff619109ba97.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.0ac671c981112ce7f6ceff619109ba97.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/0ac671c981112ce7f6ceff619109ba97.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.1d37a6e3452d99d866b918c09872865b.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/1d37a6e3452d99d866b918c09872865b.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.1d37a6e3452d99d866b918c09872865b.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/1d37a6e3452d99d866b918c09872865b.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.27a86a930c03ba6b8521f383122dc4dd.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/27a86a930c03ba6b8521f383122dc4dd.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.27a86a930c03ba6b8521f383122dc4dd.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/27a86a930c03ba6b8521f383122dc4dd.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.2933b57f9749dfc194f082339af580bd.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/2933b57f9749dfc194f082339af580bd.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.2933b57f9749dfc194f082339af580bd.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/2933b57f9749dfc194f082339af580bd.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.2bd00851f4a69d51e4535743a8701931.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/2bd00851f4a69d51e4535743a8701931.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.2bd00851f4a69d51e4535743a8701931.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/2bd00851f4a69d51e4535743a8701931.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.2d18ea92ac3b5e8cd65b392626903b71.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/2d18ea92ac3b5e8cd65b392626903b71.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.2d18ea92ac3b5e8cd65b392626903b71.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/2d18ea92ac3b5e8cd65b392626903b71.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.2dc49e6ffdf688ed8cc3401a2e33da11.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/2dc49e6ffdf688ed8cc3401a2e33da11.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.2dc49e6ffdf688ed8cc3401a2e33da11.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/2dc49e6ffdf688ed8cc3401a2e33da11.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.3fc76f61779260a490c53dcdaac7de4b.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/3fc76f61779260a490c53dcdaac7de4b.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.3fc76f61779260a490c53dcdaac7de4b.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/3fc76f61779260a490c53dcdaac7de4b.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.4376c40d60c8ee5f59de64f67505d6f5.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/4376c40d60c8ee5f59de64f67505d6f5.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.4376c40d60c8ee5f59de64f67505d6f5.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/4376c40d60c8ee5f59de64f67505d6f5.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.49632d7cde58d3f38550d8aebb8845ea.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/49632d7cde58d3f38550d8aebb8845ea.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.49632d7cde58d3f38550d8aebb8845ea.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/49632d7cde58d3f38550d8aebb8845ea.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.4f91ee7a8f2578fe7147c26b2ed72aa3.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/4f91ee7a8f2578fe7147c26b2ed72aa3.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.4f91ee7a8f2578fe7147c26b2ed72aa3.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/4f91ee7a8f2578fe7147c26b2ed72aa3.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.5499ab02cc71d6472a78321a60ccabbc.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/5499ab02cc71d6472a78321a60ccabbc.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.5499ab02cc71d6472a78321a60ccabbc.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/5499ab02cc71d6472a78321a60ccabbc.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.58009f7113eb3bec07a2eff02d7afcc2.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/58009f7113eb3bec07a2eff02d7afcc2.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.58009f7113eb3bec07a2eff02d7afcc2.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/58009f7113eb3bec07a2eff02d7afcc2.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.62df286f6cc2f44904184a09a057b1c5.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/62df286f6cc2f44904184a09a057b1c5.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.62df286f6cc2f44904184a09a057b1c5.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/62df286f6cc2f44904184a09a057b1c5.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.6dedc420cb6aea3b1436e5d665328ff4.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/6dedc420cb6aea3b1436e5d665328ff4.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.6dedc420cb6aea3b1436e5d665328ff4.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/6dedc420cb6aea3b1436e5d665328ff4.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.6f1ee69d7bf38916ef6b5de20140bd98.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/6f1ee69d7bf38916ef6b5de20140bd98.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.6f1ee69d7bf38916ef6b5de20140bd98.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/6f1ee69d7bf38916ef6b5de20140bd98.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.72761d36c3e2485250743cadc2772718.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/72761d36c3e2485250743cadc2772718.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.72761d36c3e2485250743cadc2772718.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/72761d36c3e2485250743cadc2772718.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.794150b22b3f0ae71d180e11dbb031c8.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/794150b22b3f0ae71d180e11dbb031c8.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.794150b22b3f0ae71d180e11dbb031c8.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/794150b22b3f0ae71d180e11dbb031c8.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.7b1188e884cc1c691a55feaf5c8037fa.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/7b1188e884cc1c691a55feaf5c8037fa.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.7b1188e884cc1c691a55feaf5c8037fa.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/7b1188e884cc1c691a55feaf5c8037fa.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.857cff83f4d9bcb2fa67e78b586d4afa.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/857cff83f4d9bcb2fa67e78b586d4afa.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.857cff83f4d9bcb2fa67e78b586d4afa.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/857cff83f4d9bcb2fa67e78b586d4afa.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.87214211562fc40d14148430a5d6f274.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/87214211562fc40d14148430a5d6f274.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.87214211562fc40d14148430a5d6f274.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/87214211562fc40d14148430a5d6f274.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.877ea851f4c50a65323c460acc9b130c.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/877ea851f4c50a65323c460acc9b130c.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.877ea851f4c50a65323c460acc9b130c.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/877ea851f4c50a65323c460acc9b130c.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.9427daea15d43c4e1939d52a03778b96.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/9427daea15d43c4e1939d52a03778b96.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.9427daea15d43c4e1939d52a03778b96.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/9427daea15d43c4e1939d52a03778b96.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.96efcd76f9d0cbcdbd6ed486612d4602.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/96efcd76f9d0cbcdbd6ed486612d4602.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.96efcd76f9d0cbcdbd6ed486612d4602.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/96efcd76f9d0cbcdbd6ed486612d4602.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.996c5e62142466798e0283baf33a517c.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/996c5e62142466798e0283baf33a517c.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.996c5e62142466798e0283baf33a517c.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/996c5e62142466798e0283baf33a517c.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.ab8810ed106031320537b58e36a298db.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/ab8810ed106031320537b58e36a298db.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.ab8810ed106031320537b58e36a298db.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/ab8810ed106031320537b58e36a298db.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.b837243c0c5fabdcd087de4202c12a34.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/b837243c0c5fabdcd087de4202c12a34.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.b837243c0c5fabdcd087de4202c12a34.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/b837243c0c5fabdcd087de4202c12a34.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.be029348c54d4d8486609c8e82abfb10.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/be029348c54d4d8486609c8e82abfb10.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.be029348c54d4d8486609c8e82abfb10.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/be029348c54d4d8486609c8e82abfb10.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.c33bb520022e847c32848107af270663.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/c33bb520022e847c32848107af270663.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.c33bb520022e847c32848107af270663.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/c33bb520022e847c32848107af270663.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.c9487cdb8e161423d048450d9f5822e7.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/c9487cdb8e161423d048450d9f5822e7.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.c9487cdb8e161423d048450d9f5822e7.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/c9487cdb8e161423d048450d9f5822e7.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.d63413cd39994a679f1b6bdb7e972372.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/d63413cd39994a679f1b6bdb7e972372.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.d63413cd39994a679f1b6bdb7e972372.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/d63413cd39994a679f1b6bdb7e972372.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.d71226ce582e4f4c9e4f3117e763c3a7.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/d71226ce582e4f4c9e4f3117e763c3a7.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.d71226ce582e4f4c9e4f3117e763c3a7.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/d71226ce582e4f4c9e4f3117e763c3a7.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.dfe24e46a5bfa2a9d6366577121571a0.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/dfe24e46a5bfa2a9d6366577121571a0.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.dfe24e46a5bfa2a9d6366577121571a0.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/dfe24e46a5bfa2a9d6366577121571a0.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.e41e5ee5adfb7cdae3d79612e8157d95.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/e41e5ee5adfb7cdae3d79612e8157d95.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.e41e5ee5adfb7cdae3d79612e8157d95.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/e41e5ee5adfb7cdae3d79612e8157d95.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.e87fcd1a0dac96484b51d65b580bf456.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/e87fcd1a0dac96484b51d65b580bf456.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.e87fcd1a0dac96484b51d65b580bf456.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/e87fcd1a0dac96484b51d65b580bf456.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.ebd61255109ff0528cca9f8810069ec4.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/ebd61255109ff0528cca9f8810069ec4.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.ebd61255109ff0528cca9f8810069ec4.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/ebd61255109ff0528cca9f8810069ec4.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.ed280ffdba3da8062e893da73e1ac8ea.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/ed280ffdba3da8062e893da73e1ac8ea.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.ed280ffdba3da8062e893da73e1ac8ea.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/ed280ffdba3da8062e893da73e1ac8ea.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.f326fcdd16872bc509852ec0f0a0d997.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/f326fcdd16872bc509852ec0f0a0d997.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.f326fcdd16872bc509852ec0f0a0d997.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/f326fcdd16872bc509852ec0f0a0d997.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.fae45d4eb20470dbaf56aee58c99fc05.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/fae45d4eb20470dbaf56aee58c99fc05.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.fae45d4eb20470dbaf56aee58c99fc05.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/fae45d4eb20470dbaf56aee58c99fc05.mp3" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.fcd4ee6f4a9de55634b26bb3ac784d37.lipsync" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/fcd4ee6f4a9de55634b26bb3ac784d37.lipsync" />
+    <resource identifier="module.webgl.streamingassets.sounds.fr.fcd4ee6f4a9de55634b26bb3ac784d37.mp3" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/StreamingAssets/SOUNDS/FR/fcd4ee6f4a9de55634b26bb3ac784d37.mp3" />
+    <resource identifier="module.webgl.templatedata.favicon.ico" type="webcontent" adlcp:scormType="asset" href="Module/WebGL/TemplateData/favicon.ico" />
+  </resources>
+</manifest>

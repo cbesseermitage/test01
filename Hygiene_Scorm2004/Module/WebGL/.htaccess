@@ -1,0 +1,10 @@
+<IfModule mod_mime.c>
+
+  AddEncoding gzip .unityweb
+  
+  AddType application/octet-stream .vtsres
+  AddType text/plain .data
+  AddType text/plain .lipsync
+  AddType audio/mpeg .mp3
+  AddType video/mp4 .mp4
+</IfModule>

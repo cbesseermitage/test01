@@ -1,0 +1,225 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VTS Experience</title>
+    <meta name="description" content="VTS Experience installer">
+    <meta name="author" content="Serious Factory">
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, Sans-Serif;
+            font-size: 16px;
+            color: #474747;
+            background-color: #bcbcbc;
+        }
+        .header {
+            margin:auto;
+            width: 690px;
+            height: 95px;
+            background: url('HEADER_PAGE.jpg');
+            background-repeat:no-repeat;
+        }
+        .body {
+            margin:auto;
+            width: 690px;
+            background-color: #ffffff;
+            min-height: 480px;
+        }
+        .header .language {
+            font-size: 18px;
+            float: right;
+            padding: 32px;
+            line-height: 10px;
+            color: #7c7a7b;
+        }
+        .choices {
+            cursor: pointer;
+            padding: 5px;
+            border: 0px;
+            background: none;
+            color: inherit;
+            font-size: inherit;
+            outline: 0;
+        }
+        .choices.active {
+            font-weight:bold;
+        }
+        .langen, .langfr {
+            display: none;
+        }
+        .langen.active, .langfr.active {
+            display: inline;
+        }
+        .block {
+            display: table;
+            width: 95%;
+            color: #7c7a7b;
+            padding: 10px;
+        }
+        .block .step {
+            display: table-cell;
+
+            color: #fc6717;
+            font-size: 50px;
+            font-weight:bold;
+            width:100px;
+            vertical-align: middle;
+            text-align: center;
+        }
+        .block .separator {
+            display: table-cell;
+
+            width: 20px;
+            border-left: 1px solid #7c7a7b;
+        }
+        .block .detail {
+            display: table-cell;
+            padding-left: 20px;
+            font-size: 18px;
+            font-weight:normal;
+            line-height: 23px;
+        }
+        .blockspace {
+            height: 10px;
+        }
+        .button {
+            background-color: #fc681a;
+            padding: 14px;
+            color: #ffffff;
+            font-size: 13px;
+            border-radius: 12px;
+            text-decoration: none;
+        }
+        .button img {
+            width: 14px;
+            margin-right: 12px;
+        }
+		.left
+		{
+			padding-left: 0px;
+		}
+        .notcurrent {
+			margin-right: -100px;
+            width: 600px;
+            transform: scale(0.75, 0.75);
+            transform-origin: left;
+            opacity:0.75;
+        }
+    </style>
+</head>
+<body>
+    <section class="header">
+        <div class="language">
+            <div>
+                <button id="en" onclick="swapTo('en')" class="choices" >ENGLISH</button>
+                /
+                <button id="fr" onclick="swapTo('fr')" class="choices active">FRANCAIS</button>
+                <br>
+                ______________________
+            </div>
+        </div>
+    </section>
+    <section class="body">
+	      <div class="block">
+		<span class="langfr">
+			Malheureusement l'expérience ne peut pas encore se lancer.<br> Il vous manque des prérequis techniques.<br><br>
+			Une fois les étapes ci-dessous effectuées, <a href="javascript:history.back()" style="color:#7c7a7b">revenez à l'expérience.</a>
+		</span>
+		<span class="langen">
+			Unfortunately, the experience can not yet begin. <br> You are missing some technical requirements. <br> <br>
+			Once you've completed the steps below, <a href="javascript:history.back()" style="color:#7c7a7b">come back to the experience.</a>
+		</span>
+		</div>
+        <div class="blockspace"></div>
+
+        <div class="block">
+            <span class="step">1</span>
+            <span class="separator">&nbsp;</span>
+            <span class="detail">
+                <span class="langfr">
+                    Utilisez un navigateur récent comme Firefox.<br>
+                    <p>
+                        <a class="button" href="https://www.mozilla.org/firefox/new/" target="_blank">Obtenir Firefox</a>
+                    </p>
+                </span>
+                <span class="langen">
+                    Use a recent web browser like Firefox.<br>
+                    <p>
+                        <a class="button" href="https://www.mozilla.org/firefox/new/" target="_blank">Get Firefox</a>
+                    </p>
+                </span>
+            </span>
+        </div>
+        <div class="blockspace"></div>
+        <div class="block">
+            <span class="step">2</span>
+            <span class="separator">&nbsp;</span>
+            <span class="detail">
+                <span class="langfr">
+                     Votre Windows doit avoir le "Feature Pack Windows Media" installé.<br>
+		     Voici les liens de téléchargement (selon votre version de Windows)
+                    <p>
+						<a class="button" href="https://www.microsoft.com/fr-FR/download/details.aspx?id=16546" target="_blank">Pour Windows 7</a>
+                        <a class="button" href="https://www.microsoft.com/fr-fr/download/details.aspx?id=42503" target="_blank">Pour Windows 8</a>
+						<a class="button" href="https://www.microsoft.com/fr-fr/download/details.aspx?id=53356" target="_blank">Pour Windows 10</a>
+                    </p>
+                </span>
+                <span class="langen">
+                    Your Windows needs the Feature Pack Windows Media.<br>
+		    Here are the download links (choose the one according to your Windows version):
+
+                    <p>
+						<a class="button" href="https://www.microsoft.com/fr-FR/download/details.aspx?id=16546" target="_blank">For Windows 7</a>
+                        <a class="button" href="https://www.microsoft.com/fr-fr/download/details.aspx?id=42503" target="_blank">For Windows 8</a>
+						<a class="button" href="https://www.microsoft.com/fr-fr/download/details.aspx?id=53356" target="_blank">For Windows 10</a>
+                    </p>
+
+                </span>
+            </span>
+        </div>
+          <div class="block">
+            <span class="step">3</span>
+            <span class="separator">&nbsp;</span>
+            <span class="detail">
+                <span class="langfr">
+					Quittez et relancer votre navigateur Internet.
+
+                </span>
+                <span class="langen">
+					Quit and relaunch your Web browser.
+                </span>
+            </span>
+        </div>
+       
+
+        <div class="blockspace"></div>
+
+    </section>
+    <script type="text/javascript">
+    
+
+
+        swapTo = function(lang) {
+            if (lang=='en') {
+                var offl = 'fr';
+            } else {
+                var offl = 'en';
+            }
+            document.getElementById(lang).className = "choices active";
+            document.getElementById(offl).className = "choices";
+
+            elements = document.getElementsByClassName('lang'+lang);
+            for (var i = 0; i < elements.length; i++) {
+                elements[i].style.display = 'inline';
+            }
+            elements = document.getElementsByClassName('lang'+offl);
+            for (var i = 0; i < elements.length; i++) {
+                elements[i].style.display = 'none';
+            }
+        }
+        swapTo('fr');
+
+    </script>
+</body>
+</html>

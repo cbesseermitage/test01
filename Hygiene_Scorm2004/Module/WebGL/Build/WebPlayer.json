@@ -1,0 +1,13 @@
+{
+"companyName": "SeriousFactory",
+"productName": "VTS-Player",
+"dataUrl": "WebPlayer.data.unityweb",
+"wasmCodeUrl": "WebPlayer.wasm.code.unityweb",
+"wasmFrameworkUrl": "WebPlayer.wasm.framework.unityweb",
+"TOTAL_MEMORY":134217728,
+"graphicsAPI": ["WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF",
+"cacheControl": {"default": "must-revalidate"}
+}
